@@ -28,7 +28,6 @@ function [weight, standard_deviation, model_selection_criterion] = threshold_Spa
     variance(PARAMETER.Relevant) = PARAMETER.Variance;
     model_selection_criterion = Inf;
     
-    % abs(weight) greater than or equal to threshold will be used
     index_using = (abs(weight) >= threshold);
     weight(~index_using) = 0;
     variance(~index_using) = 0;
