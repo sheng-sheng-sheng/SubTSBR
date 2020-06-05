@@ -1,5 +1,5 @@
 %--------------------------------------------------------------------------
-% Before use: addpath('./RVM');
+% Before use: addpath('./RVM'); 
 %--------------------------------------------------------------------------
 % Threshold Sparse Bayesian Regression
 % Find sparse weight, s.t. eta = PHI * weight
