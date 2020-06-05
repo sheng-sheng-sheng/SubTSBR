@@ -10,5 +10,7 @@ This package is an implementation of the algorithm detailed in:
     https://arxiv.org/abs/1907.07788
 
 The files in the folder 'RVM' were originally downloaded from
-http://www.relevancevector.com and have been modified. The package has
-been tested in Matlab 2019a.
+http://www.relevancevector.com and have been modified.
+
+This package has been tested in Matlab 2019a. Download all the files
+and run 'demo.m' for an example.
